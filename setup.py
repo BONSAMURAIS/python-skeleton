@@ -39,7 +39,7 @@ setup(
     packages=packages,
     author="your_name_here",
     author_email="your_email_here",
-    license=open('LICENSE').read(),
+    license="BSD 3-clause",
     # Only if you have non-python data (CSV, etc.). Might need to change the directory name as well.
     # package_data={'your_name_here': package_files(os.path.join('your_library_name', 'data'))},
     entry_points = {
@@ -52,6 +52,7 @@ setup(
         'docopt',
     ],
     url="your_url_here",
+    long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
     description='your_name_here',
     classifiers=[
