@@ -64,9 +64,9 @@ There are other options for documenting code; the two most popular being [Asciid
 
 Writing good tests is a learned art. People also have strong opinions on what makes good tests! Read some tutorials, learn about fixtures, try things out. Write unit tests, write integration tests, try TDD or BDD. Some tests are better than no tests, but no tests may be better than bad tests. 100% coverage is a journey, not a destination.
 
-## Code quality checks
-
 We strongly recommend using [pytest](https://docs.pytest.org/en/latest/) for testing. It is installable via conda or pip.
+
+## Code quality checks
 
 ### pylama
 
