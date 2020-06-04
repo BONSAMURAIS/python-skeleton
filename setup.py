@@ -13,7 +13,7 @@ if root_dir:
 # Change `author_email`
 # Change `url`
 # Change the PyPI classifiers: https://pypi.org/pypi?%3Aaction=list_classifiers
-
+# If not using the standard license, please choose an identifier from https://spdx.org/licenses/
 
 # Probably should be changed, __init__.py is no longer required for Python 3
 for dirpath, dirnames, filenames in os.walk('your_library_name'):
@@ -39,7 +39,7 @@ setup(
     packages=packages,
     author="your_name_here",
     author_email="your_email_here",
-    license="BSD 3-clause",
+    license="BSD-3-Clause",
     # Only if you have non-python data (CSV, etc.). Might need to change the directory name as well.
     # package_data={'your_name_here': package_files(os.path.join('your_library_name', 'data'))},
     entry_points = {

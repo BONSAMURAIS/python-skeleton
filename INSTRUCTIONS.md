@@ -16,6 +16,8 @@ The first step is to choose your library name. You should check [pypi](https://p
 
 The default license is 3-clause BSD. You need to insert your name(s) in the `LICENSE` file.
 
+If your library contains files from other libraries, or any other data under other licenses, consider following the [REUSE guidelines](https://github.com/BONSAMURAIS/python-skeleton/issues/11) on how to specify the licenses for each library component.
+
 ## Basic setup
 
 Rename the directory `your_library_name` to the *exact* name of your library.
