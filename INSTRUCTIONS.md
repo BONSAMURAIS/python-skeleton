@@ -62,7 +62,7 @@ There are other options for documenting code; the two most popular being [Asciid
 
 ## Testing
 
-Writing good tests is a learned art. People also have strong opinions on what makes good tests! Read some tutorials, learn about fixtures, try things out. Write unit tests, write integration tests, try TDD or BDD. Some tests are better than no tests, but no tests may be better than bad tests. 100% coverage is a journey, not a destination.
+Writing good tests is a learned art. People also have strong opinions on what makes good tests! Read some tutorials, learn about fixtures, try things out. Here are a [few](https://realpython.com/pytest-python-testing/) [possible](https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest) [places](https://docs.python-guide.org/writing/tests/) to [start](https://www.python-course.eu/python3_pytest.php). Write unit tests, write integration tests, try TDD or BDD. Some tests are better than no tests, but no tests may be better than bad tests. 100% coverage is a journey, not a destination.
 
 We strongly recommend using [pytest](https://docs.pytest.org/en/latest/) for testing. It is installable via conda or pip.
 
