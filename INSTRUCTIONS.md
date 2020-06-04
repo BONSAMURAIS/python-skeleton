@@ -123,4 +123,4 @@ After you have set everything up, you can already upload a `0.0.1` version. You 
 
 ## Releasing a new version
 
-Versions should follow the [semantic versioning standard](Semantic Versioning](https://semver.org/spec/v2.0.0.html). To release a new version, you should add a description of the changes to the `CHANGELOG.md`, then change the version number in both `setup.py` and `<my_library>/__init__.py`. You can then create the distribution and upload it as before with `python setup.py` and `twine`.
+Versions should follow the [semantic versioning standard](https://semver.org/spec/v2.0.0.html). To release a new version, you should add a description of the changes to the `CHANGELOG.md`, then change the version number in both `setup.py` and `<my_library>/__init__.py`. You can then create the distribution and upload it as before with `python setup.py` and `twine`.
